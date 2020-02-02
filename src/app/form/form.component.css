@@ -1,0 +1,74 @@
+.form-control {
+    background: none;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid grey;
+    margin: 1em;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.custom-btn {
+    background-color: #72b026;
+    border: none;
+    color: white;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 5em;
+}
+
+.item-bg {
+    color: white;
+    background-color: #72b026;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.unset {
+    -moz-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+    -webkit-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+    transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+}
+
+.read-more {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.close {
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 16px;
+    width: 2px;
+    background-color: red;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}

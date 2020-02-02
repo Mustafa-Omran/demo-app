@@ -1,0 +1,37 @@
+.home {
+    margin-left: 100px;
+    color: white;
+    background-color: #72b026;
+    padding-top: 2.5em;
+    padding-bottom: 1.5em;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.contact-us {
+    color: white;
+    background-color: #72b026;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-height: 5em;
+}
+
+.skew .home a {
+    -moz-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+    -webkit-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+    transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+}
+
+.main-menu nav ul li a {
+    -moz-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+    -webkit-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+    transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+}
+
+.main-menu nav ul li a:hover {
+    text-decoration: none;
+}

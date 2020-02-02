@@ -1,0 +1,51 @@
+<div class="container">
+    <form [formGroup]="form">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <input type="text" class="form-control" placeholder="Title" formControlName="title">
+                    <input type="url" class="form-control" placeholder="Link" formControlName="link">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <textarea class="form-control" placeholder="Summery" formControlName="desc"></textarea>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row skew float-right">
+                    <button class="btn custom-btn" (click)="add()">Send</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4" *ngFor="let item of list ;let index = index">
+                <span href="#" class="close" (click)="remove(item)"></span>
+                <h1 class="item-bg skew">
+                    <p class="unset">
+                        {{item.title}}
+                    </p>
+                </h1>
+
+                <p class="desc">
+                    {{item.desc}}
+                </p>
+
+                <div class="text-center">
+                    <a class="read-more">
+                        Read more
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

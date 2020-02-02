@@ -1,0 +1,32 @@
+.skew h3, .skew p {
+    -moz-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+    -webkit-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+    transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+}
+
+.full-width {
+    width: 100%;
+}
+
+.one {
+    background-image: url('https://picsum.photos/1200/220?random=1');
+}
+
+.two {
+    background-image: url('https://picsum.photos/1200/220?random=2');
+}
+
+.three {
+    background-image: url('https://picsum.photos/1200/220?random=3');
+}
+
+.slider_text {
+    background: rgba(5, 5, 5, 0.3);
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.set-bold {
+    font-weight: 900;
+    color: white;
+}
